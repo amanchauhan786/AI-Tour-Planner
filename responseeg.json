@@ -1,0 +1,260 @@
+{
+  "tripName": "Goa Luxury Getaway (3 Days, 3-5 People)",
+  "travelers": "Group (3-5 people)",
+  "budget": "Luxury",
+  "location": "Goa, India",
+  "currency": "INR",
+  "hotels": [
+    {
+      "hotelName": "The Leela Goa",
+      "hotelAddress": "Mobor, Cavelossim, Salcete, Goa 403731, India",
+      "price": 25000,
+      "hotelImageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/4d/8c/03/the-leela-goa.jpg",
+      "geoCoordinates": {
+        "latitude": 15.1232,
+        "longitude": 73.9702
+      },
+      "rating": 4.7,
+      "description": "Luxury resort with lagoons, a 12-hole golf course, and multiple dining options. Offers private beach access."
+    },
+    {
+      "hotelName": "Taj Exotica Resort & Spa, Goa",
+      "hotelAddress": "Calwaddo, Benaulim, Salcete, Goa 403716, India",
+      "price": 22000,
+      "hotelImageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/b9/48/a0/taj-exotica-resort-spa.jpg",
+      "geoCoordinates": {
+        "latitude": 15.2696,
+        "longitude": 73.9692
+      },
+      "rating": 4.6,
+      "description": "Mediterranean-inspired resort with landscaped gardens, sea-facing villas, and a Jiva Grande Spa."
+    },
+    {
+      "hotelName": "W Goa",
+      "hotelAddress": "Vagator Beach, Bardez, Goa 403509, India",
+      "price": 28000,
+      "hotelImageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/17/68/7e/e9/w-goa.jpg",
+      "geoCoordinates": {
+        "latitude": 15.5825,
+        "longitude": 73.7333
+      },
+      "rating": 4.5,
+      "description": "Stylish beachfront hotel with vibrant nightlife, a spa, and trendy dining venues. Offers stunning sunset views."
+    }
+  ],
+  "itinerary": {
+    "day1": {
+      "theme": "South Goa Relaxation & Exploration",
+      "time": "9:00 AM to 9:00 PM",
+      "locations": [
+        {
+          "placeName": "Breakfast at The Leela Goa",
+          "placeDetails": "Start the day with a luxurious breakfast at your hotel.",
+          "placeImageUrl": "https://www.theleela.com/theleela/images/home/goa-hotel.jpg",
+          "geoCoordinates": {
+            "latitude": 15.1232,
+            "longitude": 73.9702
+          },
+          "ticketPricing": "Included in Hotel Price",
+          "rating": 4.8,
+          "timeTravel": "0 minutes",
+          "TimeToVisit": "9:00 AM - 10:00 AM"
+        },
+        {
+          "placeName": "Mobor Beach",
+          "placeDetails": "Relax on the pristine sands, enjoy water sports, or take a dolphin-watching tour.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Goa_Beach_India.jpg/1280px-Goa_Beach_India.jpg",
+          "geoCoordinates": {
+            "latitude": 15.1198,
+            "longitude": 73.9695
+          },
+          "ticketPricing": "Free (water sports extra)",
+          "rating": 4.4,
+          "timeTravel": "15 minutes",
+          "TimeToVisit": "10:00 AM - 1:00 PM"
+        },
+        {
+          "placeName": "Lunch at Fisherman's Wharf",
+          "placeDetails": "Enjoy fresh seafood and Goan specialties with waterfront views.",
+          "placeImageUrl": "https://b.zmtcdn.com/data/pictures/5/90325/901b2d39b97e41f0982788f44c582c61.jpg",
+          "geoCoordinates": {
+            "latitude": 15.2542,
+            "longitude": 73.9778
+          },
+          "ticketPricing": "1500-3000 INR per person",
+          "rating": 4.5,
+          "timeTravel": "30 minutes",
+          "TimeToVisit": "1:00 PM - 2:30 PM"
+        },
+        {
+          "placeName": "Dudhsagar Falls (Jeep Safari)",
+          "placeDetails": "Take a thrilling jeep safari through the jungle to reach the magnificent Dudhsagar Falls.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dudhsagar_Falls_in_Monsoon.jpg/1280px-Dudhsagar_Falls_in_Monsoon.jpg",
+          "geoCoordinates": {
+            "latitude": 15.3103,
+            "longitude": 74.3152
+          },
+          "ticketPricing": "2500-3500 INR per person (including jeep safari)",
+          "rating": 4.3,
+          "timeTravel": "2 hours (to reach the starting point) + 3-4 hours for the safari",
+          "TimeToVisit": "2:30 PM - 7:30 PM (Consider starting earlier for a less rushed experience)"
+        },
+        {
+          "placeName": "Dinner at Martin's Corner",
+          "placeDetails": "Enjoy traditional Goan cuisine in a lively atmosphere.",
+          "placeImageUrl": "https://content3.jdmagicbox.com/comp/goa/x1/0832px832.x832.180906192315.b6x1/catalogue/martin-s-corner-betalbatim-goa-multicuisine-restaurants-b332u4a4w8.jpg",
+          "geoCoordinates": {
+            "latitude": 15.2357,
+            "longitude": 73.9521
+          },
+          "ticketPricing": "1000-2500 INR per person",
+          "rating": 4.6,
+          "timeTravel": "45 minutes",
+          "TimeToVisit": "8:00 PM - 9:00 PM"
+        }
+      ]
+    },
+    "day2": {
+      "theme": "North Goa Beaches & Culture",
+      "time": "9:00 AM to 9:00 PM",
+      "locations": [
+        {
+          "placeName": "Breakfast at W Goa",
+          "placeDetails": "Start your day with breakfast at the hotel.",
+          "placeImageUrl": "https://cache.marriott.com/marriottassets/marriott/GOIWC/goiwc-the-kitchen-table-5782-hor-feat.jpg",
+          "geoCoordinates": {
+            "latitude": 15.5825,
+            "longitude": 73.7333
+          },
+          "ticketPricing": "Included in Hotel Price",
+          "rating": 4.6,
+          "timeTravel": "0 minutes",
+          "TimeToVisit": "9:00 AM - 10:00 AM"
+        },
+        {
+          "placeName": "Fort Aguada",
+          "placeDetails": "Explore the historic Portuguese fort with panoramic views of the Arabian Sea.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aguada_fort_Goa_India_DSC00013.JPG/1280px-Aguada_fort_Goa_India_DSC00013.JPG",
+          "geoCoordinates": {
+            "latitude": 15.5038,
+            "longitude": 73.7648
+          },
+          "ticketPricing": "Free",
+          "rating": 4.3,
+          "timeTravel": "30 minutes",
+          "TimeToVisit": "10:30 AM - 12:00 PM"
+        },
+        {
+          "placeName": "Calangute Beach",
+          "placeDetails": "Relax on the popular Calangute Beach and enjoy water sports.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Calangute_Beach_Goa_India.jpg/1280px-Calangute_Beach_Goa_India.jpg",
+          "geoCoordinates": {
+            "latitude": 15.5327,
+            "longitude": 73.7627
+          },
+          "ticketPricing": "Free (water sports extra)",
+          "rating": 4.2,
+          "timeTravel": "15 minutes",
+          "TimeToVisit": "12:15 PM - 1:30 PM"
+        },
+        {
+          "placeName": "Lunch at Curlies Beach Shack, Anjuna",
+          "placeDetails": "Enjoy lunch with a view at this iconic beach shack.",
+          "placeImageUrl": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/a/n/r1085-15754414015de509f998095.jpg?w=1200",
+          "geoCoordinates": {
+            "latitude": 15.5664,
+            "longitude": 73.7413
+          },
+          "ticketPricing": "1000-2500 INR per person",
+          "rating": 4.4,
+          "timeTravel": "30 minutes",
+          "TimeToVisit": "1:30 PM - 2:30 PM"
+        },
+        {
+          "placeName": "Anjuna Flea Market (Wednesday Only)",
+          "placeDetails": "Shop for souvenirs, handicrafts, and clothing at the vibrant Anjuna Flea Market (open only on Wednesdays).",
+          "placeImageUrl": "https://www.holidify.com/images/cmsuploads/compressed/anjunafleamarket_20170712175549.jpg",
+          "geoCoordinates": {
+            "latitude": 15.5674,
+            "longitude": 73.7385
+          },
+          "ticketPricing": "Free (shopping costs vary)",
+          "rating": 4.3,
+          "timeTravel": "0 minutes",
+          "TimeToVisit": "2:30 PM - 5:00 PM"
+        },
+        {
+          "placeName": "Chapora Fort",
+          "placeDetails": "Visit the famous Chapora Fort, known for its scenic views and Bollywood connection.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Chapora_Fort%2C_Goa.jpg/1280px-Chapora_Fort%2C_Goa.jpg",
+          "geoCoordinates": {
+            "latitude": 15.5903,
+            "longitude": 73.7447
+          },
+          "ticketPricing": "Free",
+          "rating": 4.1,
+          "timeTravel": "15 minutes",
+          "TimeToVisit": "5:15 PM - 6:30 PM"
+        },
+        {
+          "placeName": "Dinner at Antares Restaurant & Beach Club, Vagator",
+          "placeDetails": "Enjoy a fine dining experience with stunning sunset views at this popular restaurant.",
+          "placeImageUrl": "https://b.zmtcdn.com/data/pictures/5/18455625/2a9d466ca458f7636e702f162856e32d.jpg",
+          "geoCoordinates": {
+            "latitude": 15.5848,
+            "longitude": 73.7311
+          },
+          "ticketPricing": "2000-4000 INR per person",
+          "rating": 4.5,
+          "timeTravel": "10 minutes",
+          "TimeToVisit": "7:00 PM - 9:00 PM"
+        }
+      ]
+    },
+    "day3": {
+      "theme": "Luxury & Departure",
+      "time": "9:00 AM to 3:00 PM",
+      "locations": [
+        {
+          "placeName": "Breakfast at your Hotel",
+          "placeDetails": "Enjoy a leisurely breakfast at your Hotel.",
+          "placeImageUrl": "https://www.theleela.com/theleela/images/home/goa-hotel.jpg",
+          "geoCoordinates": {
+            "latitude": 15.1232,
+            "longitude": 73.9702
+          },
+          "ticketPricing": "Included in Hotel Price",
+          "rating": 4.8,
+          "timeTravel": "0 minutes",
+          "TimeToVisit": "9:00 AM - 10:00 AM"
+        },
+        {
+          "placeName": "Spa Treatment",
+          "placeDetails": "Enjoy a relaxing spa treatment to recover.",
+          "placeImageUrl": "https://media.cntraveler.com/photos/5c16e171d446e36c50975907/16:9/w_2560%2Cc_limit/The-Leela-Goa_Spa_treatment-room_Leela-Goa.jpg",
+          "geoCoordinates": {
+            "latitude": 15.1232,
+            "longitude": 73.9702
+          },
+          "ticketPricing": "4000-8000 INR per person",
+          "rating": 4.7,
+          "timeTravel": "15 minutes",
+          "TimeToVisit": "10:00 AM - 12:00 PM"
+        },
+        {
+          "placeName": "Departure/Lunch",
+          "placeDetails": "Check out of your hotel, grab lunch nearby and head to the airport.",
+          "placeImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Goa_Beach_India.jpg/1280px-Goa_Beach_India.jpg",
+          "geoCoordinates": {
+            "latitude": 15.1198,
+            "longitude": 73.9695
+          },
+          "ticketPricing": "500-1500 INR per person",
+          "rating": 4.0,
+          "timeTravel": "30 minutes",
+          "TimeToVisit": "12:00 AM - 1:00 PM"
+        }
+      ]
+    }
+  }
+}
