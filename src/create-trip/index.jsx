@@ -283,7 +283,7 @@ function CreatrTrip() {
         <DialogContent>
           <DialogHeader>
             <DialogDescription>
-              <img src="/logo2.svg" alt="company logo" />
+              <img src="/logo3.svg" alt="company logo" />
               <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
               <p>Sign in to the app with Google Authentication securley</p>
               <Button onClick={login} className="w-full mt-5 flex gap-5">
