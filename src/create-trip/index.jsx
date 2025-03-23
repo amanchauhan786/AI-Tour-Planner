@@ -125,18 +125,18 @@ function CreatrTrip() {
       pay.open();
       return;
     }
-    // setloading(true);
-    // toast("Please wait we are generating your trip, Happy Travelling");
-    // const FINAL_PROMPT = AI_Prompt.replace("{location}", formData?.Destination)
-    //   .replace("{totalDays}", formData?.noOfDays)
-    //   .replace("{traveler}", formData?.Traveler)
-    //   .replace("{budget} ", formData?.Budget)
-    //   .replace("{totalDays}", formData?.noOfDays);
-    // console.log(FINAL_PROMPT);
-    // const result = await chatSession.sendMessage(FINAL_PROMPT);
-    // console.log("Creation: ", typeof result.response?.text());
-    // setloading(false);
-    // saveAITrip(result.response?.text());
+    setloading(true);
+    toast("Please wait we are generating your trip, Happy Travelling");
+    const FINAL_PROMPT = AI_Prompt.replace("{location}", formData?.Destination)
+      .replace("{totalDays}", formData?.noOfDays)
+      .replace("{traveler}", formData?.Traveler)
+      .replace("{budget} ", formData?.Budget)
+      .replace("{totalDays}", formData?.noOfDays);
+    console.log(FINAL_PROMPT);
+    const result = await chatSession.sendMessage(FINAL_PROMPT);
+    console.log("Creation: ", typeof result.response?.text());
+    setloading(false);
+    saveAITrip(result.response?.text());
   };
 
   //setting static images
