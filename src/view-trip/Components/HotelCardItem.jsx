@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router";
 
 function HotelCardItem(hotel, index) {
-  //   console.log("hotel card", hotel);
+  console.log("hotel card", hotel);
   const [photoUrl, setPhotoUrl] = useState();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function HotelCardItem(hotel, index) {
         "{NAME}",
         resp.data.places[0].photos[3].name
       );
-      console.log(PhotoUrl);
+      console.log("Trial: ", PhotoUrl);
       setPhotoUrl(PhotoUrl);
     });
   };
@@ -41,7 +41,13 @@ function HotelCardItem(hotel, index) {
         key={index}
       >
         <img
-          src={photoUrl ? photoUrl : "/placeholder.jpg"}
+          src={
+            photoUrl
+              ? photoUrl
+              : hotel?.hotel?.hotelImageUrl
+              ? hotel?.hotel?.hotelImageUrl
+              : "/placeholder.jpg"
+          }
           alt="hotel"
           className="rounded-xl h-[180px] w-full object-cover"
         />
