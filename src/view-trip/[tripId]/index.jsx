@@ -91,7 +91,8 @@ function Viewtrip() {
     const state = cityStateMap[city];
     if (state) {
       try {
-        return require(`../assets/weather/${state.toLowerCase()}.png`);
+        const image = await import(`../assets/weather/${state.toLowerCase()}.png`);
+        return image.default;
       } catch (error) {
         console.error(`Weather image for ${city} (${state}) not found.`);
         return null; // Default image or null if not found
