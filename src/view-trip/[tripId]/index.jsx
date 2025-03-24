@@ -106,9 +106,9 @@ function Viewtrip() {
       <InfoSection trip={trip} />
       
       {/* Weather Image */}
-      {trip?.city && (
+      {trip?.trip?.userSelection?.Destination && (
         <div className="weather-image">
-          <img src={getWeatherImage(trip.city)} alt={`${trip.city} weather`} />
+          <img src={getWeatherImage(trip?.trip?.userSelection?.Destination)} alt={`${trip?.trip?.userSelection?.Destination} weather`} />
         </div>
       )}
       
