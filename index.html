@@ -1,15 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/styles.css" rel="stylesheet">
+    <link href="/src/styles.css" rel="stylesheet" />
     <title>Vite + React</title>
   </head>
+
   <body>
+    <!-- BotStack Assistant -->
+    <script
+      type="text/javascript"
+      src="https://botstacks.sfo3.cdn.digitaloceanspaces.com/webassistant.js"
+    ></script>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        initBotStackAssistant({
+          apiKey: "al99daxalogz9v7fe7xkzctm",
+          botId: "27fb67b9-6adb-4a4e-899d-50b731e95abc",
+        });
+      });
+    </script>
     <div id="root"></div>
+
+    <!-- Razorpay Script -->
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    <!-- React Entry Point -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
