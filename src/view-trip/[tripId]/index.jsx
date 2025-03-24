@@ -7,6 +7,58 @@ import InfoSection from "../Components/InfoSection";
 import Hotels from "../Components/Hotels";
 import PlacesToVisit from "../Components/PlacesToVisit";
 
+const cityStateMap = {
+  "Ahmedabad": "Gujarat",
+  "Alappuzha": "Kerala",
+  "Amritsar": "Punjab",
+  "Aurangabad": "Maharashtra",
+  "Bengaluru": "Karnataka",
+  "Bhopal": "Madhya Pradesh",
+  "Bhubaneswar": "Odisha",
+  "Chandigarh": "Chandigarh",
+  "Chennai": "TamilNadu",
+  "Darjeeling": "WestBengal",
+  "Delhi": "Delhi",
+  "Goa": "Goa",
+  "Guwahati": "Assam",
+  "Gwalior": "MadhyaPradesh",
+  "Haridwar": "Uttarakhand",
+  "Hyderabad": "Telangana",
+  "Jaipur": "Rajasthan",
+  "Jaisalmer": "Rajasthan",
+  "Jodhpur": "Rajasthan",
+  "Kochi": "Kerala",
+  "Kodaikanal": "TamilNadu",
+  "Kolkata": "WestBengal",
+  "Leh": "Ladakh",
+  "Lonavala": "Maharashtra",
+  "Lucknow": "UttarPradesh",
+  "Madurai": "TamilNadu",
+  "Mahabalipuram": "TamilNadu",
+  "Manali": "HimachalPradesh",
+  "Mount Abu": "Rajasthan",
+  "Mumbai": "Maharashtra",
+  "Mysore": "Karnataka",
+  "Nainital": "Uttarakhand",
+  "Nagpur": "Maharashtra",
+  "Nashik": "Maharashtra",
+  "Ooty": "TamilNadu",
+  "Pondicherry": "Pondicherry",
+  "Pune": "Maharashtra",
+  "Puri": "Odisha",
+  "Rameswaram": "TamilNadu",
+  "Rishikesh": "Uttarakhand",
+  "Shimla": "HimachalPradesh",
+  "Siliguri": "WestBengal",
+  "Srinagar": "JammuKashmir",
+  "Surat": "Gujarat",
+  "Thiruvananthapuram": "Kerala",
+  "Tirupati": "AndhraPradesh",
+  "Udaipur": "Rajasthan",
+  "Varkala": "Kerala",
+  "Varanasi": "UttarPradesh"
+};
+
 function Viewtrip() {
   const { tripId } = useParams();
 
@@ -35,10 +87,31 @@ function Viewtrip() {
     }
   };
 
+  const getWeatherImage = (city) => {
+    const state = cityStateMap[city];
+    if (state) {
+      try {
+        return require(`../assets/weather/${state.toLowerCase()}.png`);
+      } catch (error) {
+        console.error(`Weather image for ${city} (${state}) not found.`);
+        return null; // Default image or null if not found
+      }
+    }
+    return null;
+  };
+  
   return (
     <div className="p-10 md:px-20 lg:px-44 xl:px-56">
       {/* Information Section */}
       <InfoSection trip={trip} />
+      
+      {/* Weather Image */}
+      {trip?.city && (
+        <div className="weather-image">
+          <img src={getWeatherImage(trip.city)} alt={`${trip.city} weather`} />
+        </div>
+      )}
+      
       {/* Recommended Hotels */}
       <Hotels trip={trip} />
       {/* Daily Plan */}
