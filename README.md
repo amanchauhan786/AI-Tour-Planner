@@ -96,5 +96,3 @@ This project was a collaborative effort by[1]:
 
 We extend our heartfelt gratitude to our supervisor, **Prof. Yoganand S.**, and **Vellore Institute of Technology (VIT)** for their continuous guidance, motivation, and support throughout the development of this project[1].
 
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/56800737/a25b78a5-723d-43a2-aa8c-04faf00a014a/22BCE0476_VL2024250503167_AST05-1.pdf
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/56800737/057d7c80-e966-4acb-97ce-7c182dbcdbd5/22BCE0476_VL2024250503167_AST01.pdf
